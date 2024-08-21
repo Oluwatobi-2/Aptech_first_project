@@ -1,0 +1,47 @@
+#body{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: whitesmoke;
+    width: 30vw;
+    border-radius: 10%;
+    opacity: 93%;
+}
+
+body{
+    background-image: linear-gradient(rgba(42, 0, 228, 0.3), rgba(255, 242, 0, 0.534)), url(/image/images.jpg);
+    padding: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font: 1em sans-serif;
+}
+
+input{
+    padding: 10px;
+}
+
+.button{
+    margin-left: 40px;
+    padding: 5px; 
+    padding-left: 90px;
+    padding-right: 90px;
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: 1s;
+    border-radius: 6px;
+}
+
+.button:hover{
+    background-color: yellow;
+    color: cornflowerblue;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-color: whitesmoke;
+}
+
+.fas-fa-globe{
+    color: aqua;
+}

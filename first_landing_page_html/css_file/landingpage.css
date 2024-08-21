@@ -1,0 +1,108 @@
+body{
+    background-image: url(/image/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* STYLING THE NAVIGATION BAR */
+li{
+    list-style-type: none;
+}
+
+.mg{
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+    height: 90vh;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    display: flex;
+}
+
+.line{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: blue;
+    color: lavender;
+    border-radius: 10%;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+/* styling landing page */
+img{
+    height: 40vh;
+    width: 40vw;
+}
+
+.parent{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+.days{
+    margin-top: 30px;
+}
+
+.lab{
+    margin-top: 40px;
+}
+
+.bt{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: background 2s, color 2s;
+}
+
+.bt:hover{
+    background-color: crimson;
+    color: lavender;
+    opacity: 80%;
+}
+
+.tb{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.short{
+    display: flex;
+   justify-content: center;
+   font-weight: bold;
+   opacity: 80%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    word-spacing: 30px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.of{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    opacity: 100%;
+    font-size: small;
+}

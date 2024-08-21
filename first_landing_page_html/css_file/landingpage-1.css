@@ -1,0 +1,139 @@
+body{
+    background-image: linear-gradient(rgba(0, 10, 125, 0.6), rgba(252, 211, 30, 0.5)), url(/image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 1200px;
+    padding: 30px;
+    font-family: verdana;
+    background-attachment: fixed;
+}
+/* nav bar */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid, 4px, linear-gradient(rgba(0,0,0,0.5));
+    border-radius: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.7));
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.line{
+    margin-left: 50px;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.line:hover{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.roboto{
+    padding: 8px;
+    background-color: orange;
+    color: aliceblue;
+    border: 2px double orange;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.roboto:hover{
+    padding: 15px;
+    background-color: orange;
+    color: blue;
+}
+/* main page */
+img{
+    height: 700px;
+    rotate: 300deg;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.parent{
+    background-image: linear-gradient(to right, rgba(0, 64, 255, 0.6), rgba(255, 230, 0, 0.6));
+    min-height: 120vh;
+    border-radius: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.vis{
+    height: 50px;
+    width: 600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.gif{
+    rotate: 60deg;
+    width: 10px;
+    height: 700px;
+}
+
+.image{
+    opacity: 70%;
+    height: 400px;
+    width: 500px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.font{
+    justify-content: center;
+    color: yellow;
+}
+
+.control{
+    background-color: blue;
+    padding: 5px 20px 5px 20px;
+    color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 1s;
+}
+
+.control:hover{
+    background-color: orange;
+    color: blue;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+}
+
+.short{
+    display: flex;
+   justify-content: center;
+   margin-top: 300px;
+   font-weight: bold;
+   opacity: 80%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    word-spacing: 5px;
+    font-weight: bold;
+    opacity: 80%;
+}

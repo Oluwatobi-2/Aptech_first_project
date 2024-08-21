@@ -1,0 +1,103 @@
+body{
+    background-color: darkblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* STYLING THE NAVIGATION BAR */
+li{
+    list-style-type: none;
+}
+
+.artificial{
+    color: white;
+}
+
+.mg{
+    margin: 10px;
+    border-radius: 10px;
+    height: 90vh;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+.line{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    opacity: 90%;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    color: indigo;
+    border-radius: 10%;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+/* styling landing page */
+img{
+    height: 80vh;
+    width: 40vw;
+    rotate: 15deg;
+
+}
+
+.pedro{
+    color: goldenrod;
+}
+
+.parent{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+.days{
+    margin-top: 30px;
+    margin-right: 100px;
+    padding-right: 60px;
+}
+
+.lab{
+    margin-top: 40px;
+}
+
+.bt{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: indigo;
+}
+
+.tb{
+    background-color: darkblue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.white{
+    color: white;
+}
+
+.tiny{
+    color: yellow;
+    opacity: 80%;
+    font-size: small;
+}
